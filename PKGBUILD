@@ -2,7 +2,7 @@
 # Domain: Resilient Systems, Cyber Defense & Sovereign Application Architecture
 
 pkgname=void-9-architecture
-pkgver=0.3.0
+pkgver=0.3.5
 pkgrel=1
 pkgdesc="Hyper-minimalist sovereign architecture engine and kernel confinement perimeter"
 arch=('x86_64' 'aarch64')
@@ -19,7 +19,7 @@ optdepends=(
 provides=('void')
 conflicts=('void')
 source=("${pkgname}-${pkgver}.tar.gz::https://github.com/xsigil/void-9-architecture/archive/refs/tags/v${pkgver}.tar.gz")
-sha256sums=('0e17cda0a7bc0679e78db19267ddb55010080499dea40c50745676e2d5153df9')
+sha256sums=('372dfb9ea085aebd3b77dd9a57e4f225afec7e37614f93b7f203d9226333f172')
 
 build() {
     cd "${pkgname}-${pkgver}"
